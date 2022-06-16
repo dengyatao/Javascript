@@ -38,6 +38,10 @@
     font-family: SimSun;
     color: #999999;
 }
+/*使图片和文字对齐*/
+.policy .pic{
+    vertical-align: middle;
+}
 /* 条款 调整颜色*/
 .policy .policy{
     padding:0px;
@@ -69,9 +73,13 @@
     width: 350px;
     padding: 10px 0;
     background-color:#fff8f0;
-    color: #666666;
+    color: #a7a2a2;
     font-size: 12px;
-    font-family: SimSun;
+    font-family: SimSun, serif;
+}
+/*调整图片与文字对齐*/
+.main .img .login .top .pic{
+    vertical-align: middle;
 }
 /* 扫码登录和账号登录大盒子 */
 .main .img .login .sel{
@@ -105,9 +113,7 @@
 }
 /* 两个输入框都定位 */
 .show{
-    padding-top: 33px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 33px 20px 40px;
 }
 .show .user,.show .pwd{
     width: 304px;
@@ -115,6 +121,7 @@
     border: 1px solid #ccc;
     margin-bottom: 20px;
     padding-left: 50px;
+    font-family: "\5b8b\4f53", serif;
     box-sizing: border-box;
 }
 .inputs {
@@ -167,7 +174,7 @@
     background-color: #fcfcfc;
     display: flex;
     justify-content: space-around;
-    padding-top: 40px;
+    padding: 0;
 }
 /* 调整底部的一些细节 图标与文字的位置等 */
 .login-bottom .other-login a{
