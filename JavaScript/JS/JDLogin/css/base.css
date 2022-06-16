@@ -1,0 +1,37 @@
+/* 基本预设 */
+
+/*清除页面中标签自带的外间距和内填充*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/*清除ul自带的列表符*/
+ul, li {
+    list-style: none;
+}
+/*去掉a自带的下划线*/
+a {
+    color: #666666;
+    text-decoration: none;
+}
+/* 删除a点击后变蓝色   */
+a:visited {
+    color: #999999;
+    text-decoration: none;
+}
+/* 点击a上面有下划线 且变红*/
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+/*去掉img自带的边框<当图像加上a标签后，IE浏览器在不去除图像边框时会显示边框>*/
+img {
+    border: none;
+}
+html {
+    height:100%;
+}
+body {
+    min-height: 100%;
+    position: relative;
+}
