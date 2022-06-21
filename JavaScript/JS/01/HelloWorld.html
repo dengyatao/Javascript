@@ -5,6 +5,7 @@
     <title>MyFirstJS</title>
 <!--    <script type="text/javascript" src="script.js">-->
 <!--    </script>-->
+
     <script type="text/javascript">
         /*
         控制浏览器弹出一个警告框
@@ -27,7 +28,7 @@
             console.log(user[n]);
         }*/
 
-        for (var i = 0; i < 10 ; i++){
+        /*for (var i = 0; i < 10 ; i++){
             setTimeout(function(){
                 console.log(i);
             },100)
@@ -36,14 +37,46 @@
             setTimeout(function(){
                 console.log(i);
             },100)
+        }*/
+
+
+
+        /*function createPeople(name,age,gender){
+            let obj = {};
+            obj.name = name;
+            obj.age = age;
+            obj.gender = gender;
+            obj.sayName = function (){
+                alert(this.name);
+            };
+            return obj;
         }
+        obj1 = createPeople("孙悟空",18,"男");
+        obj2 = createPeople("猪八戒",18,"男");
+        obj3 = createPeople("沙和尚",18,"男");
+        obj1.sayName();
+        obj2.sayName();
+        obj3.sayName();*/
 
+        /*function Person(name,age){
+            this.name = name;
+            this.age = age;
+            this.sayName = function (){
+                alert(this.name);
+            };
+        }
+        var per = new Person("邓亚涛",21);
+        alert(per.age);
+        per.sayName();*/
 
-
+        /*var txt = "Hello World";
+        document.write("<p>Blink: " + txt.blink() + " (does not work in IE)</p>")*/
 
     </script>
 </head>
 <body>
+
+
         <h1 style="font-size: 200px">&#9760</h1>
 </body>
 </html>
